@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="nazarov_set" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="rGw-MZ-xBa">
+                                <rect key="frame" x="16" y="36" width="343" height="503"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="JTu-sN-9L9">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="79"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Yui-1g-SWe" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633210334808" green="0.91800467251409734" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4D-F2-RuO"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bKr-Sw-Zln" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.66666668650000005" green="0.37353242780000001" blue="0.38906771350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxP-L4-aDA"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NUa-t3-YCG" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P2b-hE-DFZ"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bZO-Fm-8py" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2S-04-IZl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="APm-0h-haK">
+                                        <rect key="frame" x="0.0" y="85" width="343" height="78.5"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GRm-SC-m0p" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZZK-KF-5FN"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vMp-Gi-b3x" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGO-AP-zUL"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZtW-2S-d9f" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fad-kt-4Hh"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-1G-oZw" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8e-lb-pJz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Rrw-5f-Qnd">
+                                        <rect key="frame" x="0.0" y="169.5" width="343" height="79"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-d6-VXE" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7eI-cf-LUn"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Olo-zz-UsH" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOn-Zl-S30"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8dW-yv-JED" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eel-CR-AAs"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-I4-QqZ" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xlG-g1-saO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="mSg-ux-LXh">
+                                        <rect key="frame" x="0.0" y="254.5" width="343" height="79"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OFN-BG-tHk" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caf-2f-ILJ"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VsO-gH-ZdL" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GR-OR-ulu"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-l8-ZTg" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zaI-tt-Hkq"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Huo-qQ-qRG" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y4w-7f-tzi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="qzG-ld-cwM">
+                                        <rect key="frame" x="0.0" y="339.5" width="343" height="78.5"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-b8-LIb" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OoI-XA-GIJ"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7ww-1N-v2e" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVS-LI-7Vd"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="up2-le-aeI" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TZV-WB-J6q"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="I7t-gc-nm3" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="78.5"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cv-ti-hb9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="9cw-l0-Jnj">
+                                        <rect key="frame" x="0.0" y="424" width="343" height="79"/>
+                                        <subviews>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DBj-Ro-pfX" userLabel="▲  ●  ■" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnq-9c-HeC"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fSA-9V-hqv" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="87.5" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7x6-Ea-bzD"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="c1J-V2-2Kg" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="0.0" width="81.5" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X7s-Vc-HV1"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xTA-zv-OeN" customClass="SetUIButton" customModule="nazarov_set" customModuleProvider="target">
+                                                <rect key="frame" x="262" y="0.0" width="81" height="79"/>
+                                                <color key="backgroundColor" red="0.54077633209999998" green="0.91800467249999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="▲  ●  ■"/>
+                                                <connections>
+                                                    <action selector="selectCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3H-Lq-LU7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlK-I7-goD">
+                                <rect key="frame" x="203" y="624" width="156" height="30"/>
+                                <color key="backgroundColor" red="0.66666668653488159" green="0.37353242776107742" blue="0.38906771351462771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Deal Three Cards">
+                                    <color key="titleColor" red="0.56866376320764944" green="0.93523316062176165" blue="0.90251180131151432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dealThreeMoreCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="seH-iB-xfZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tD-65-ana">
+                                <rect key="frame" x="16" y="630.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nf4-Hq-r7d">
+                                <rect key="frame" x="157" y="624" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.20558673971267882" green="0.19941042026144673" blue="0.37564766839378239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Hint">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEu-Cq-l0T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21424375105941165" green="0.66666668653488159" blue="0.17940410083375777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nf4-Hq-r7d" secondAttribute="bottom" constant="13" id="0A3-3w-5FN"/>
+                            <constraint firstItem="rGw-MZ-xBa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2dk-wa-bBl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6tD-65-ana" secondAttribute="bottom" constant="16" id="59H-qL-w9s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GlK-I7-goD" secondAttribute="bottom" constant="13" id="5Ub-lS-c4Z"/>
+                            <constraint firstItem="6tD-65-ana" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Gbg-W3-PIf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rGw-MZ-xBa" secondAttribute="trailing" constant="16" id="LBc-bG-i1G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GlK-I7-goD" secondAttribute="trailing" constant="16" id="Yg7-5j-0Nw"/>
+                            <constraint firstItem="rGw-MZ-xBa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ffq-XV-8zd"/>
+                            <constraint firstItem="GlK-I7-goD" firstAttribute="leading" secondItem="Nf4-Hq-r7d" secondAttribute="trailing" constant="16" id="vk5-Tz-lm5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rGw-MZ-xBa" secondAttribute="bottom" constant="128" id="z0k-oI-u7Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dealThreeMoreCardsButton" destination="GlK-I7-goD" id="PRk-fd-1T5"/>
+                        <outlet property="scoreLabel" destination="6tD-65-ana" id="vr9-cO-wgP"/>
+                        <outletCollection property="cardButtons" destination="NUa-t3-YCG" collectionClass="NSMutableArray" id="MBQ-6K-cfa"/>
+                        <outletCollection property="cardButtons" destination="bZO-Fm-8py" collectionClass="NSMutableArray" id="HMl-Xs-AoK"/>
+                        <outletCollection property="cardButtons" destination="gKH-1G-oZw" collectionClass="NSMutableArray" id="1G4-5n-iZ8"/>
+                        <outletCollection property="cardButtons" destination="ZtW-2S-d9f" collectionClass="NSMutableArray" id="ZYE-ua-U7c"/>
+                        <outletCollection property="cardButtons" destination="ECo-I4-QqZ" collectionClass="NSMutableArray" id="ZUb-xZ-0tH"/>
+                        <outletCollection property="cardButtons" destination="8dW-yv-JED" collectionClass="NSMutableArray" id="pGL-5e-RQw"/>
+                        <outletCollection property="cardButtons" destination="Yui-1g-SWe" collectionClass="NSMutableArray" id="6VG-yD-xVl"/>
+                        <outletCollection property="cardButtons" destination="bKr-Sw-Zln" collectionClass="NSMutableArray" id="k3t-RF-dGp"/>
+                        <outletCollection property="cardButtons" destination="vMp-Gi-b3x" collectionClass="NSMutableArray" id="VXO-S5-wkt"/>
+                        <outletCollection property="cardButtons" destination="GRm-SC-m0p" collectionClass="NSMutableArray" id="maQ-FF-L48"/>
+                        <outletCollection property="cardButtons" destination="Olo-zz-UsH" collectionClass="NSMutableArray" id="d12-lW-4sa"/>
+                        <outletCollection property="cardButtons" destination="hyz-d6-VXE" collectionClass="NSMutableArray" id="llv-Nt-sFp"/>
+                        <outletCollection property="cardButtons" destination="VsO-gH-ZdL" collectionClass="NSMutableArray" id="OxI-xY-HHZ"/>
+                        <outletCollection property="cardButtons" destination="OFN-BG-tHk" collectionClass="NSMutableArray" id="3dw-0V-ueR"/>
+                        <outletCollection property="cardButtons" destination="GhV-l8-ZTg" collectionClass="NSMutableArray" id="dQG-s1-MG5"/>
+                        <outletCollection property="cardButtons" destination="Huo-qQ-qRG" collectionClass="NSMutableArray" id="Fio-z4-Bvf"/>
+                        <outletCollection property="cardButtons" destination="I7t-gc-nm3" collectionClass="NSMutableArray" id="WAu-Cj-3FM"/>
+                        <outletCollection property="cardButtons" destination="up2-le-aeI" collectionClass="NSMutableArray" id="aUY-1G-xiN"/>
+                        <outletCollection property="cardButtons" destination="7ww-1N-v2e" collectionClass="NSMutableArray" id="khu-KD-zr5"/>
+                        <outletCollection property="cardButtons" destination="MVW-b8-LIb" collectionClass="NSMutableArray" id="hrP-Gp-8mO"/>
+                        <outletCollection property="cardButtons" destination="DBj-Ro-pfX" collectionClass="NSMutableArray" id="p3L-9n-XS5"/>
+                        <outletCollection property="cardButtons" destination="fSA-9V-hqv" collectionClass="NSMutableArray" id="WF3-P8-Qae"/>
+                        <outletCollection property="cardButtons" destination="c1J-V2-2Kg" collectionClass="NSMutableArray" id="SPh-SU-bDO"/>
+                        <outletCollection property="cardButtons" destination="xTA-zv-OeN" collectionClass="NSMutableArray" id="jYB-OQ-v9P"/>
+                        <outletCollection property="cardButtons" destination="OFN-BG-tHk" collectionClass="NSMutableArray" id="47g-qv-Ay0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
